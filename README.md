@@ -1,10 +1,13 @@
 # min-GPT
 一个简单的GPT模型，用于学习和研究
 
-训练前大模型输出100字符：
+依赖
+python > 3
+
+训练前模型输出100字符：
 Sr?qP-QWktXoL&jLDJgOLVz'RIoDqHdhsV&vLLxatjscMpwLERSPyao.qfzs$Ys$zF-w,;eEkzxjgCKFChs!iWW.ObzDnxA Ms$3
 
-训练后输出：
+训练后模型输出：
 And trust things to end, I' follow enter.
 There little pery, to his house of his with three
 Scowling and reigns; take the where he absole kon
@@ -49,5 +52,10 @@ step  4500 | loss: 1.2384
 
 
 note:
+现在只是单字符版本，实际情况下要比这个复杂的多。
 上面结果是在GPU下进行训练的，如果在CPU下运行，可能达不到预期
+
+使用方式
+python train.py
+
 

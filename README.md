@@ -58,4 +58,20 @@ note:
 使用方式
 python train.py
 
+运行笔记本
+选项 1：Google Colab
+每个笔记本都可以通过点击笔记本标题中的“在 Google Colab 中打开”徽章直接在 Google Colab 中打开
+
+选项 2：本地 Jupyter 服务器
+要在本地运行笔记本，请按照以下步骤操作：
+1.python -m venv venv
+2.source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3.Install dependencies  安装依赖
+pip install -r requirements.txt
+
+4.启动 Jupyter Notebook
+jupyter notebook
+
+5.在 Jupyter 界面中导航到 notebooks 目录，并选择您想要运行的笔记本
 
